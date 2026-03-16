@@ -16,7 +16,7 @@ It is used as part of the [official Docker Node.js sample](https://docs.docker.c
 - **Database**: PostgreSQL with automatic connection handling and health checks
 - **Development Experience**: Hot reload, file watching, automatic database startup
 - **Production-Ready**: Multi-stage Docker builds, security hardening, resource management
-- **Comprehensive Testing**: 101 passing tests with Vitest and React Testing Library
+- **Comprehensive Testing**: 88 passing tests with Vitest and React Testing Library
 - **Docker Optimized**: Separate development/production configurations with proper networking
 - **CI/CD Ready**: GitHub Actions workflows, Kubernetes deployment configurations
 
