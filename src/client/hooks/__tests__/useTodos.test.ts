@@ -17,10 +17,7 @@ describe('useTodos', () => {
   });
 
   it('initializes with empty todos and loading state', () => {
-    mockFetch.mockResolvedValueOnce({
-      ok: true,
-      json: () => Promise.resolve({ success: true, data: [] }),
-    });
+    mockFetch.mockImplementationOnce(() => new Promise(() => {}));
 
     const { result } = renderHook(() => useTodos());
 

@@ -161,3 +161,5 @@ $RECYCLE.BIN/
 .parcel-cache/
 .vite/
 storybook-static/
+
+.fake
